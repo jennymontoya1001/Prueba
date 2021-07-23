@@ -6,13 +6,13 @@ import Products from '../container/Products'
 
 const Routes = () => {
     return (
-        <BrowserRouter>
+        <Router>
             <Switch>
                 <Route exact path='/' component={Register}/>
                 <Route exact path='/login' component={Login}/>
                 <Route exact path='/products' component={Products} />
             </Switch>
-        </BrowserRouter>
+        </Router>
     )
 }
 
